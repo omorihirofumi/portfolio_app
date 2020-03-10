@@ -1,3 +1,103 @@
-// Place all the styles related to the homes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.body{
+  width: 100%;
+  background-color: #FFFFDD;
+  font-size: 16px;
+
+  .header{
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFDD;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .introduction{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid;
+
+    img{
+      display: block;
+      margin: 0 auto;
+
+    }
+
+    &__name{
+      text-align: center;
+
+    }
+
+    &__birthday{
+      text-align: center;
+
+    }
+  }
+
+  .career{
+    background-color:white;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid;
+    
+    &__box{
+      text-align: center;
+    }
+
+    table{
+      margin: 0 auto;
+    }
+  }
+
+  .content{
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid;
+
+    &__heading{
+      text-align: center;
+    }
+  }
+
+  .strong{
+    background-color: white;
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    border: 1px solid;
+
+    &__point{
+      text-align: center;
+
+    }
+
+  }
+
+
+  
+
+  .aim-engineer{
+    background-color: white;
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid;
+
+    &__item{
+      text-align: center;
+    }
+  }
+
+  .portfolio{
+    background-color:white;
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid;
+  }
+}
