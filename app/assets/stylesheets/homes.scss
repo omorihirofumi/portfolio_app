@@ -1,21 +1,22 @@
 .body{
   width: 100%;
-  background-color: #FFFFDD;
+  background-color: #99FFFF;
   font-size: 16px;
 
   .header{
     height: 50px;
-    width: 100%;
-    background-color: #FFFFDD;
+    width: 900px;
+    background-color: #99FFFF;
+    margin: 0 auto;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
   }
 
   .introduction{
-    background-color: white;
+    background-color:#FFFFDD;
     width: 900px;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
     border: 1px solid;
 
@@ -27,6 +28,9 @@
 
     &__name{
       text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      
 
     }
 
@@ -37,14 +41,17 @@
   }
 
   .career{
-    background-color:white;
+    background-color:#FFFFDD;
     width: 900px;
-    height: 300px;
+    height: 200px;
     margin: 0 auto;
     border: 1px solid;
     
     &__box{
       text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 5px;
     }
 
     table{
@@ -53,19 +60,22 @@
   }
 
   .content{
-    background-color: white;
+    background-color:#FFFFDD;
     width: 900px;
-    height: 300px;
+    height: 270px;
     margin: 0 auto;
     border: 1px solid;
 
     &__heading{
       text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 5px;
     }
   }
 
   .strong{
-    background-color: white;
+    background-color:#FFFFDD;
     width: 900px;
     height: 700px;
     margin: 0 auto;
@@ -73,6 +83,9 @@
 
     &__point{
       text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 5px;
 
     }
 
@@ -82,19 +95,22 @@
   
 
   .aim-engineer{
-    background-color: white;
+    background-color:#FFFFDD;
     width: 900px;
-    height: 800px;
+    height: 600px;
     margin: 0 auto;
     border: 1px solid;
 
     &__item{
       text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 5px;
     }
   }
 
   .portfolio{
-    background-color:white;
+    background-color:#FFFFDD;
     width: 900px;
     height: 800px;
     margin: 0 auto;
